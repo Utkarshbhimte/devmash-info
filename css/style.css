@@ -1,0 +1,60 @@
+html, body {
+    width: 100%;
+    background-color: #272727;
+    z-index: 0;
+    color: #FFF !important;
+    font-family: 'Roboto Mono', monospace !important;
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden
+}
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent
+}
+::-webkit-scrollbar-thumb {
+    background: #FFF
+}
+
+header .container{
+  border: 2px solid white;
+  padding: 1em;
+  margin: 2em auto;
+}
+
+h4{
+padding: .6em;
+font-weight: 400;
+}
+.week{
+  margin-bottom: 5em;
+}
+header h2{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 100 !important;
+}
+
+header p, h4, h3{
+  background-color: rgb(0, 225, 225);;
+  color: black;
+}
+
+.project{
+  list-style: none;
+  color: rgb(0, 225, 225);
+  border: 1px solid rgb(0, 225, 225);
+  padding: .5em 1em;
+  transition: all .3s ease;
+}
+
+.project:hover{
+  transform: scale(1.05);
+}
+
+@media (max-width: 900px) {
+
+  li{
+  }
+
+}
