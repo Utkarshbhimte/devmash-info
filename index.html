@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"  ng-app="">
+<html lang="en" ng-app="">
 
 <head>
     <!-- Basic Page Needs
@@ -13,7 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes" />
     <!-- FONT
          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400|Roboto+Mono" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400|Roboto+Mono" rel="stylesheet">
     <!-- CSS
          –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <link rel="stylesheet" href="css/style.css">
@@ -30,9 +30,27 @@
 </head>
 
 <body>
-  <div id="1" ng-include="'WebDev.html'"></div>
-  <div id="2" ng-include="'android.html'"></div>
-  <div id="3" ng-include="'python.html'"></div>
+    <nav>
+        <ul>
+            <li>
+                <a href="#WebDev">WebDev</a>
+            </li>
+            <li>
+                <a href="#Android">Android</a>
+            </li>
+            <li>
+                <a href="#Python">Python</a>
+            </li>
+            <li>
+                <a href="#faq">FAQs</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="WeDev" ng-include="'WebDev.html'"></div>
+    <div id="Android" ng-include="'android.html'"></div>
+    <div id="Python" ng-include="'python.html'"></div>
+    <div id="faq" ng-include="'faq.html'"></div>
 
 </body>
+
 </html>
